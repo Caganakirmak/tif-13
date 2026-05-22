@@ -1,0 +1,86 @@
+.team-manager {
+  padding: 20px;
+  background: linear-gradient(135deg, #1e1e1e 0%, #2d2d2d 100%);
+  color: white;
+  min-height: 100vh;
+}
+
+.team-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-section h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.team-info {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-left: 4px solid;
+}
+
+.team-info.home-team {
+  border-left-color: #ff0000;
+}
+
+.team-info.away-team {
+  border-left-color: #0000ff;
+}
+
+.team-info h3 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+}
+
+.team-info p {
+  color: #aaa;
+  margin: 0 0 15px 0;
+}
+
+.players-list {
+  margin-top: 15px;
+}
+
+.players-list h4 {
+  margin: 0 0 10px 0;
+  color: #ddd;
+}
+
+.player-card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player-name {
+  font-weight: bold;
+  flex: 1;
+}
+
+.player-stats {
+  display: flex;
+  gap: 15px;
+  font-size: 12px;
+}
+
+.position {
+  background: rgba(100, 100, 255, 0.3);
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+
+.overall {
+  background: rgba(255, 200, 0, 0.3);
+  padding: 4px 8px;
+  border-radius: 3px;
+}
